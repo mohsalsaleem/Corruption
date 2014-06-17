@@ -21,8 +21,11 @@ Things you may want to cover:
 
 * Deployment instructions
 
-  //Get this repository by
+  Get this repository by
               git clone git://github.com/mohsalsaleem/Corruption.git
+  
+  To view the page in heroku:
+              http://safe-ocean-1698.herokuapp.com/
 
 
 Please feel free to use a different markup language if you do not plan to run
