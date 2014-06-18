@@ -7,7 +7,6 @@ Rails.application.routes.draw do
 
   root 'home#index'
   get 'link1'=>'home#link1'
-  get 'link2'=>'home#link2'
   #get 'link_1'=>'link_1#link1'
 
   # The priority is based upon order of creation: first created -> highest priority.
