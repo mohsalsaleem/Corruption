@@ -17,43 +17,33 @@
 <section class="top-bar-section">
 
 <ul class="right">
-	<%= link_to 'Page 1' ,{action:'link1' ,controller:'home'}, :class=>"small button radius" %>
-	<%= link_to 'Page 2' ,{action:'link2' ,controller:'home'}, :class=>"small button radius" %>
+	<%= link_to 'Methods' ,{action:'link1' ,controller:'home'}, :class=>"small button radius" %>
+	<%= link_to 'Prevention' ,{action:'link2' ,controller:'home'}, :class=>"small button radius" %>
 </ul>
 </section>
     </nav>
 <div class="row">
 	<div class="large-12 columns">
-<div class ="panel">
-	<h2>Title goes here.</h2>
-<p>An one liner..</p>	
-</div>
+<!--div class ="panel"-->
+	<h1 style="color:#bdbdbd">Corruption</h1>
+<h2>???????</h2>	
+<!--/div-->
 </div>
 </div>
 <div class="row">
         <div class="large-8 columns">
 		<div class="panel">
-<h3> Heading goes here</h3>
-<pre> Content goes here
-
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
+<h3> What is corruption?</h3>
+<p> Corruption may be defined as an action to secretly provide a good or a service to a third party / group so that they can influence certain actions which benefit the corrupt, a third party, or both in which the corrupt agent has authority. In simple words, corruption is the illegitimate use of public power to benefit a private interest.
+</p> 
+<p>
+Corruption may include many activities including bribery and embezzlement. Government, or 'political', corruption occurs when an office-holder or other governmental employee acts in an official capacity for personal gain.
+</p>
 		</div>
 	</div>
 	<div class="large-4 columns">
 	<div class="callout panel">
-<center >Image</center>
+<%= image_tag "corruption_world.jpg"%>
 	</div>
 	</div>
 </div>
@@ -62,31 +52,70 @@
 <div class="row">
      <div class="large-4 columns">
 	<div class="callout panel">
-       <center > Image goes here</center>
+       <%= image_tag "corruption_scale.jpeg"%><br/>
+</div>
+<br/><br/><br/><br/>
+<div class="callout panel">
+<%= image_tag "corruption_scale_2.jpeg"%>
        </div>
 	</div>
+
         <div class="large-8 columns">
                 <div class="panel">
-<h3> Heading goes here</h3>
-<pre> Content goes here
+					<h3> Scales of corruption </h3>
+						<p> 
+							Corruption can occur on different scales. There is corruption that occurs as small favours between a small number of people (petty 		corruption), corruption that affects the government on a large scale (grand corruption), and corruption that is so prevalent that it is  part of the everyday structure of society, including corruption as one of the symptoms of organized crime (systemic corruption).
+						</p>
+
+						<p>
+						<h4>Petty corruption</h4><br>
+								Petty corruption occurs at a smaller scale and within established social frameworks and governing norms. Examples include the exchange of small improper gifts or use of personal connections to obtain favours. This form of corruption is particularly common in developing countries and where public servants are significantly underpaid.
+						</p>
+
+						<h4>Grand corruption</h4><br>
+						<p>
+								Grand corruption is defined as corruption occurring at the highest levels of government in a way that requires significant subversion of the political, legal and economic systems. Such corruption is commonly found in countries with authoritarian or dictatorial		governments but also in those without adequate policing of corruption.
+						</p>
+
+						<h4>Systemic corruption</h4><br>
+						<p>
+						Systemic corruption is corruption which is primarily due to the weaknesses of an organization or process. It can be contrasted with individual officials or agents who act corruptly within the system.
+						</p>
+        </div>
 
 
+</div>
+<div class="row">
+                <div class="large-12 columns">
+                <div class="panel">
+					<h3> Corruption in different sectors </h3>				
+						<p> 
+						Corruption can occur in different sectors, whether they be public or private industry or even NGOs.
+						</p>
 
+						<p>
+						<h4>Political corruption</h4><br>
+								Political corruption is the abuse of public power, office, or resources by elected government officials for personal gain, e.g. by extortion, soliciting or offering bribes. It can also take the form of office holders maintaining themselves in office by purchasing votes by enacting laws which use taxpayers' money. Evidence suggests that corruption can have political consequences- with citizens being asked for bribes becoming less likely to identify with their country or region.
+						</p>
 
+						<h4>Police corruption</h4><br>
+						<p>Police corruption is a specific form of police misconduct designed to obtain financial benefits, other personal gain, and/or career advancement for a police officer or officers in exchange for not pursuing, or selectively pursuing, an investigation or arrest. One common form of police corruption is soliciting and/or accepting bribes in exchange for not reporting organized drug or prostitution rings or other illegal activities. Another example is police officers flouting the police code of conduct in order to secure convictions of suspects — for example, through the use of falsified evidence. More rarely, police officers may deliberately and systematically participate in organized crime themselves.
 
+						</p>
 
+						<h4>Judicial corruption</h4><br>
+						<p>Judicial corruption refers to corruption related misconduct of judges, through receiving or giving bribes, improper sentencing of convicted criminals, bias in the hearing and judgement of arguments and other such misconduct.
+						</p>
+		
+						<h4>Unions</h4><br>
+						<p>
+Labour racketeering is the domination, manipulation, and control of a labour movement in order to affect related businesses and industries. It can lead to the denial of workers’ rights and inflicts an economic loss on the workers, business, industry, insurer, or consumer.
+						</p>
 
-
-
-
-
-
-
-</pre>
                 </div>
         </div>
-        
 </div>
+
 <hr/>
 	 
 	    <script src="js/vendor/jquery.js"></script>
@@ -96,7 +125,7 @@
     </script>
      
   </body>
-<footer style="background-color: #151515;margin-bottom: 0;bottom: 0;width: 100%;height: 130px" >
+<footer style="background-color: #151515;margin-bottom: 0;bottom: 0;width: 100%;height: 70px" >
 <font color="#D8D8D8">
 <div class="row" >
     <div class="large-4 columns">

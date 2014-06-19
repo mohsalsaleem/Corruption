@@ -21,43 +21,36 @@ body {
 <section class="top-bar-section">
 
 <ul class="right">
-	<%= link_to 'Page 2' ,{action:'link2' ,controller:'home'}, :class=>"small button radius" %>
+	<%= link_to 'Prevention' ,{action:'link2' ,controller:'home'}, :class=>"small button radius" %>
 <!--	<li> <a class ="small button radius">link to page2</a></li>  -->
 </ul>
 </section>
     </nav>
 <div class="row">
 	<div class="large-12 columns">
-<div class ="panel">
-	<h2>Title goes here.</h2>
-<p>An one liner..</p>	
-</div>
+<!--div class ="panel"-->
+	<h1 style="color:#bdbdbd">Corruption</h1>
+<h2>Methods of Corruption</h2>	
+<!--/div-->
 </div>
 </div>
 <div class="row">
         <div class="large-8 columns">
 		<div class="panel">
-<h3> Heading goes here</h3>
-<pre> Content goes here
 
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
+		<h3>Bribery</h3><br>
+		<p>Bribery is the improper use of gifts and favours in exchange for personal gain. It is the most common form of corruption. The types of favours given are diverse and include money, gifts, sexual favours, company shares, entertainment, employment and political benefits. The personal gain that is given can be anything from actively giving preferential treatment to having an indiscretion or crime overlooked.
+		</p>
+		
+		<h4>Embezzlement, theft and fraud</h4>
+		<p>Embezzlement and theft involve someone with access to funds or assets illegally taking control of them. Fraud involves using deception to convince the owner of funds or assets to give them up to an unauthorized party.
+Examples include the misdirection of company funds into "shadow companies" (and then into the pockets of corrupt employees), the skimming of foreign aid money, scams and other corrupt activity.
+</p>
 		</div>
 	</div>
 	<div class="large-4 columns">
 	<div class="callout panel">
-<center >Image</center>
+<%= image_tag "bribe.jpg"%>
 	</div>
 	</div>
 </div>
@@ -66,27 +59,17 @@ body {
 <div class="row">
      <div class="large-4 columns">
 	<div class="callout panel">
-       <center > Image goes here</center>
+       <%= image_tag "blackmail.jpg"%>
        </div>
 	</div>
         <div class="large-8 columns">
                 <div class="panel">
-<h3> Heading goes here</h3>
-<pre> Content goes here
+<h3> Extortion and blackmail</h3>
+<p>  
+   While bribery is the use of positive inducements for corrupt aims, extortion and blackmail centre around the use of threats. This can be the threat of violence or false imprisonment as well as exposure of an individual's secrets or prior crimes.
 
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
+This includes such behavior as an influential person threatening to go to the media if they do not receive speedy medical treatment (at the expense of other patients), threatening a public official with exposure of their secrets if they do not vote in a particular manner, or demanding money in exchange for continued secrecy.
+</p>
                 </div>
         </div>
         
@@ -100,7 +83,7 @@ body {
     </script>
      
   </body>
-<footer style="background-color: #151515;margin-bottom: 0;bottom: 0;width: 100%;height: 130px" >
+<footer style="background-color: #151515;margin-bottom: 0;bottom: 0;width: 100%;height: 70px" >
 <font color="#D8D8D8">
 <div class="row" >
     <div class="large-4 columns">
@@ -110,8 +93,8 @@ body {
 <section class="top-bar-section">
 
 <ul class="left" style="list-style:none">
- <%= link_to 'Page 1' ,{action:'link1' ,controller:'home'}, :class=>"small button round" %>
-	<%= link_to 'Page 2' ,{action:'link2' ,controller:'home'}, :class=>"small button round" %>
+ <%= link_to 'Prevention' ,{action:'link1' ,controller:'home'}, :class=>"small button round" %>
+	<%= link_to 'Control' ,{action:'link2' ,controller:'home'}, :class=>"small button round" %>
 </ul>
 </section>
 

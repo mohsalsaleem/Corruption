@@ -21,17 +21,17 @@ body {
 <section class="top-bar-section">
 
 <ul class="right">
-	<%= link_to 'Page 1' ,{action:'link1' ,controller:'home'}, :class=>"small button radius" %>
+	<%= link_to 'Methods' ,{action:'link1' ,controller:'home'}, :class=>"small button radius" %>
 <!--	<li> <a class ="small button radius">link to page2</a></li>  -->
 </ul>
 </section>
     </nav>
 <div class="row">
 	<div class="large-12 columns">
-<div class ="panel">
-	<h2>Corruption</h2>
-<p>An one liner..</p>	
-</div>
+<!--div class ="panel"-->
+	<h1 style="color:#bdbdbd">Corruption</h1>
+<h2>How to Control???</h2>	
+<!--/div-->
 </div>
 </div>
 <div class="row">
@@ -53,7 +53,11 @@ The Jan Lokpal Bill aims to effectively deter corruption, compensate citizen gri
 	</div>
 	<div class="large-4 columns">
 	<div class="callout panel">
-<center >Image</center>
+<%= image_tag "iac.jpg"%>
+	</div>
+<br/><br/><br/><br/><br/>
+<div class="callout panel">
+<%=image_tag "anna_hazare.jpg" %>
 	</div>
 	</div>
 </div>
@@ -62,27 +66,21 @@ The Jan Lokpal Bill aims to effectively deter corruption, compensate citizen gri
 <div class="row">
      <div class="large-4 columns">
 	<div class="callout panel">
-       <center > Image goes here</center>
+       <%= image_tag "iac2.jpg"%>
        </div>
 	</div>
         <div class="large-8 columns">
                 <div class="panel">
-<h3> Heading goes here</h3>
-<pre> Content goes here
+<h3> Anti-corruption programmes</h3>
+<p> 
+   A document produced by the economic and private sector professional evidence and applied knowledge services help-desk discusses some of the existing practices on anti-corruption. They found:
+	<ul>
+		<li><p>The theories behind the fight against corruption are moving from a principal-agent approach to a collective action problem. Principal-agent theories seem not to be suitable to target systemic corruption.</p></li>
+<li><p>The role of multilateral institutions has been crucial in the fight against corruption. UNCAC provides a common guideline for countries around the world. Both Transparency International and the World Bank provide assistance to national governments in term of diagnostic and design of anti-corruption policies.</p></li>
+<li><p>Anti-corruption policies that may be in general recommended to developing countries may not be suitable for post-conflict countries. Anti-corruption policies in fragile states have to be carefully tailored.</p></li>
+</ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
+</p>
                 </div>
         </div>
         
@@ -106,8 +104,8 @@ The Jan Lokpal Bill aims to effectively deter corruption, compensate citizen gri
 <section class="top-bar-section">
 
 <ul class="left" style="list-style:none">
-     <%= link_to 'Page 1' ,{action:'link1' ,controller:'home'}, :class=>"small button round" %>
-	<%= link_to 'Page 2' ,{action:'link2' ,controller:'home'}, :class=>"small button round" %>
+     <%= link_to 'Methods' ,{action:'link1' ,controller:'home'}, :class=>"small button round" %>
+	<%= link_to 'Prevention' ,{action:'link2' ,controller:'home'}, :class=>"small button round" %>
 </ul>
 </section>
 

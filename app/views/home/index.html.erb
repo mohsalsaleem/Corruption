@@ -17,17 +17,17 @@
 <section class="top-bar-section">
 
 <ul class="right">
-	<%= link_to 'Page 1' ,{action:'link1' ,controller:'home'}, :class=>"small button radius" %>
-	<%= link_to 'Page 2' ,{action:'link2' ,controller:'home'}, :class=>"small button radius" %>
+	<%= link_to 'Methods' ,{action:'link1' ,controller:'home'}, :class=>"small button radius" %>
+	<%= link_to 'Prevention' ,{action:'link2' ,controller:'home'}, :class=>"small button radius" %>
 </ul>
 </section>
     </nav>
 <div class="row">
 	<div class="large-12 columns">
-<div class ="panel">
-	<h2>Corruption</h2>
-<p>An one liner.</p>	
-</div>
+<!--div class ="panel"-->
+	<h1 style="color:#bdbdbd">Corruption</h1>
+<h2>???????</h2>	
+<!--/div-->
 </div>
 </div>
 <div class="row">
@@ -43,7 +43,7 @@ Corruption may include many activities including bribery and embezzlement. Gover
 	</div>
 	<div class="large-4 columns">
 	<div class="callout panel">
-<center >Image</center>
+<%= image_tag "corruption_world.jpg"%>
 	</div>
 	</div>
 </div>
@@ -52,9 +52,14 @@ Corruption may include many activities including bribery and embezzlement. Gover
 <div class="row">
      <div class="large-4 columns">
 	<div class="callout panel">
-       <center > Image goes here</center>
+       <%= image_tag "corruption_scale.jpeg"%><br/>
+</div>
+<br/><br/><br/><br/>
+<div class="callout panel">
+<%= image_tag "corruption_scale_2.jpeg"%>
        </div>
 	</div>
+
         <div class="large-8 columns">
                 <div class="panel">
 					<h3> Scales of corruption </h3>
@@ -79,7 +84,9 @@ Corruption may include many activities including bribery and embezzlement. Gover
         </div>
 
 
-                <div class="large-8 columns">
+</div>
+<div class="row">
+                <div class="large-12 columns">
                 <div class="panel">
 					<h3> Corruption in different sectors </h3>				
 						<p> 
@@ -107,8 +114,8 @@ Labour racketeering is the domination, manipulation, and control of a labour mov
 
                 </div>
         </div>
-
 </div>
+
 <hr/>
 	 
 	    <script src="js/vendor/jquery.js"></script>
@@ -128,8 +135,8 @@ Labour racketeering is the domination, manipulation, and control of a labour mov
 <section class="top-bar-section">
 
 <ul class="left" style="list-style:none">
-       <%= link_to 'Page 1' ,{action:'link1' ,controller:'home'}, :class=>"small button round" %>
-	<%= link_to 'Page 2' ,{action:'link2' ,controller:'home'}, :class=>"small button round" %>
+       <%= link_to 'Methods' ,{action:'link1' ,controller:'home'}, :class=>"small button round" %>
+	<%= link_to 'Prevention' ,{action:'link2' ,controller:'home'}, :class=>"small button round" %>
 <%=link_to image_tag("facebook.png",size:"50x45") , "https://www.facebook.com/fsftn"%>
 <%=link_to image_tag("git.png"),"https://github.com/mohsalsaleem"%>
 </ul>
