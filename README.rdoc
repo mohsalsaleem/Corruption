@@ -25,7 +25,7 @@ Things you may want to cover:
               git clone git://github.com/mohsalsaleem/Corruption.git
   
   To view the page in heroku:
-              http://safe-ocean-1698.herokuapp.com/
+              http://corruption.herokuapp.com/
 
 
 Please feel free to use a different markup language if you do not plan to run
